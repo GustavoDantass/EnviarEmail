@@ -35,8 +35,8 @@ namespace EnviarEmail
 
 
             //definir as credenciais de acesso ao email
-            credenciais.UserName = "gustavindantass98";
-            credenciais.Password = "gudantas91867148";
+            credenciais.UserName = "nome";
+            credenciais.Password = "senha";
 
             //define as credenciais no cliente
             cliente.Credentials = credenciais;
@@ -46,7 +46,7 @@ namespace EnviarEmail
             MailMessage mensagem = new MailMessage();
 
             //quem envio
-            mensagem.From = new MailAddress("gustavindantass98@gmail.com");
+            mensagem.From = new MailAddress("email");
 
             //assunto
             mensagem.Subject = assunto;
