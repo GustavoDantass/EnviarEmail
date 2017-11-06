@@ -1,0 +1,7 @@
+C:\Users\gusta\source\repos\EnviarEmail\EnviarEmail\bin\Debug\EnviarEmail.exe.config
+C:\Users\gusta\source\repos\EnviarEmail\EnviarEmail\bin\Debug\EnviarEmail.exe
+C:\Users\gusta\source\repos\EnviarEmail\EnviarEmail\bin\Debug\EnviarEmail.pdb
+C:\Users\gusta\source\repos\EnviarEmail\EnviarEmail\obj\Debug\EnviarEmail.csprojResolveAssemblyReference.cache
+C:\Users\gusta\source\repos\EnviarEmail\EnviarEmail\obj\Debug\EnviarEmail.csproj.CoreCompileInputs.cache
+C:\Users\gusta\source\repos\EnviarEmail\EnviarEmail\obj\Debug\EnviarEmail.exe
+C:\Users\gusta\source\repos\EnviarEmail\EnviarEmail\obj\Debug\EnviarEmail.pdb
