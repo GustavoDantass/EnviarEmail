@@ -12,7 +12,6 @@ namespace EnviarEmail
     {
         static void Main(string[] args)
         {
-
             Console.Write("Para: ");
             string para = Console.ReadLine();
             Console.Write("Assunto: ");
@@ -20,11 +19,9 @@ namespace EnviarEmail
             Console.Write("Corpo: ");
             string corpo = Console.ReadLine();
 
-
             //enviar email via C#
             SmtpClient cliente = new SmtpClient();
             NetworkCredential credenciais = new NetworkCredential();
-
 
             // definir as configuraçoes do cliente
             cliente.Host = "smtp.gmail.com";
@@ -33,14 +30,12 @@ namespace EnviarEmail
             cliente.DeliveryMethod = SmtpDeliveryMethod.Network;
             cliente.UseDefaultCredentials = false;
 
-
             //definir as credenciais de acesso ao email
             credenciais.UserName = "nome";
             credenciais.Password = "senha";
 
             //define as credenciais no cliente
             cliente.Credentials = credenciais;
-
 
             //preparar a mensagem a enviar
             MailMessage mensagem = new MailMessage();
@@ -71,32 +66,9 @@ namespace EnviarEmail
             catch (Exception ex)
             {
                 //escrever um ficheiro de texto com o erro.
-                Console.Write("Nao foi possivel enviar o email");
-                
+                Console.Write("Nao foi possivel enviar o email");   
             }
-
-
             Console.ReadKey();
-
-
-
-
-           
-            
-
-            
-
-           
-
-            
-
-            
-            
-           
-           
-            
-            
-           
         }
     }
 }
